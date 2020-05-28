@@ -7,3 +7,5 @@ Cat.prototype.eat = function(mouse) {
 	this.stomatch.push(mouse);
 	return this;
 };
+
+module.exports = Cat;
