@@ -1,10 +1,10 @@
 function Cat(){
-	this.stomatch = [];
+	this.stomach = [];
 }
 
 Cat.prototype.eat = function(mouse) {
 	// body...
-	this.stomatch.push(mouse);
+	this.stomach.push(mouse);
 	return this;
 };
 
